@@ -1,0 +1,81 @@
+
+
+<!-- <div class="cards ; row row-cols-1 row-cols-md-4 g-4">
+
+<div *ngFor="let p of plants" class="card; shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+    <img src="{{p.openfarm_data.attributes.main_image_path}}" class="card-img-top" alt="Photo not Available">
+    <div class="card-body">
+      <h5 class="card-title">{{ p.name }}</h5>
+      <p class="card-text">{{ p.en_wikipedia_url }}</p>
+      <a href="#" class="btn btn-primary">details</a>
+    </div>
+  </div>
+</div> -->
+<html>
+    <body style="background-color:rgb(77, 100, 61);text-align:center">
+      <br>
+      <br>
+      <div class="input-group" style="width: 480px; margin:5px">
+        <input type="search" class="form-control rounded" placeholder="if the plant needed is not below, search by name" aria-label="Search" aria-describedby="search-addon"  name="plantNameSearch"  [(ngModel)]="plantName">
+        <button type="button" class="btn btn-success" (click)= getSearchedPlant() >search</button>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false" style="margin:5px">
+          search plants by perennial:
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <li><button class="dropdown-item"  (click)="perennialPlants()">perennials</button></li>
+          <li><button class="dropdown-item"  (click)="nonPerennialPlants()">non-perennials</button></li>
+        </ul>
+        <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false" style="margin:5px">
+          search plants by sun requirements:
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <li><button class="dropdown-item" type="button" (click)="fullSunPlants()">full sun</button></li>
+          <li><button class="dropdown-item" type="button" (click)="partSunPlants()">partial sun</button></li>
+          <li><button class="dropdown-item" type="button" (click)="partShadePlants()">partial shade</button></li>
+          <li><button class="dropdown-item" type="button" (click)="fullShadePlants()">shade</button></li>
+        </ul>
+        <button  class="btn btn-success" (click)="resetPlants()" style="margin:5px">reset</button>
+      </div>
+
+
+      
+<div *ngIf="filtered" [hidden]="notFound" class="cards ; row row-cols-1 row-cols-md-5 g-5" >
+      <app-plant-preview  *ngFor="let p of filteredPlants"  [content]="p"></app-plant-preview>
+</div>
+<div *ngIf="!filtered" [hidden]="notFound" class="cards ; row row-cols-1 row-cols-md-5 g-5" >
+  <app-plant-preview  *ngFor="let p of plants"  [content]="p"></app-plant-preview>
+</div>
+
+<div [hidden]="!notFound">
+  <br>
+  <br>
+  <br>
+ <h5 class="notfound">plant not found, please reset</h5>
+ <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>
+
+

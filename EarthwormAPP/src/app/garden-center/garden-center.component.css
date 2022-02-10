@@ -1,0 +1,12 @@
+.choice{
+    font-family: Playfair Display SC;
+    font-size: 70px;
+    color: whitesmoke;
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+

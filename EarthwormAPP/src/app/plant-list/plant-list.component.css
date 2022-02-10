@@ -1,0 +1,42 @@
+
+.body {
+    min-height: 100%
+}
+
+.btn {
+        font-size: 13px;
+        font-family: Roboto Mono;
+
+}
+
+.dropdown {
+    font-family: Roboto Mono;
+
+}
+
+.form-control{
+    font-size: 11px;
+    font-family: Roboto Mono;
+    font-weight: bold;
+}
+
+.input-group {
+    width: 357px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  .notfound{
+    font-family: Roboto Mono;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: whitesmoke;
+  }
+
+  .tip{
+    font-family: Roboto Mono;
+    font-size: 12px;
+    text-align: center;
+    color: whitesmoke;
+  }

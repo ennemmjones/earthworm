@@ -1,0 +1,92 @@
+.card {
+    width: 100%;
+    top: 50px;
+    margin: 0 auto;
+    float: none; 
+    margin-bottom: 10px;
+    z-index: 1;
+}
+
+.card-title {
+    font-size: 30px;
+    font-family: Playfair Display SC;
+    color: whitesmoke;
+}
+
+.card-body{
+    background-color: rgb(77, 100, 61);
+    min-height: 200px;
+}
+
+.card-text{
+    font-size: 12px;
+    font-family: Roboto Mono;
+    color: white;
+    /* text-shadow: 2px 2px rgb(0, 0, 0); */
+    font-weight:bold;
+    
+}
+
+.btn {
+
+    font-size: 14px;
+    font-family: Roboto Mono;
+    font-weight:bold;
+
+}
+
+.body {
+    min-height: 100%
+}
+
+.container {
+    font-family: Roboto Mono;
+    font-size: 14px;
+    /* width: 500px;
+    height: 200px;
+    margin-left: 600px;
+    margin-top: 50px; */
+    width: 20%;
+    margin: 0 auto;
+    float: none; 
+    margin-bottom: 10px;
+  }
+
+  .plant-image{
+    font-size: 12px;
+    font-family: Roboto Mono;
+    color: rgba(245, 245, 245, 0.52);
+}
+
+.formtitle{
+    font-family: Roboto Mono;
+    font-size: 14px;
+    text-align: center;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    font-weight: bold;
+  }
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+

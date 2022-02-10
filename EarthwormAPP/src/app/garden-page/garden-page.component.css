@@ -1,0 +1,70 @@
+.card {
+    width: 100%;
+    top: 50px;
+    margin: 0 auto;
+    float: none; 
+    margin-bottom: 10px;
+    z-index: 1;
+}
+
+.card-title {
+    font-size: 24px;
+    font-family: Playfair Display SC;
+    color: whitesmoke;
+}
+
+.header {
+    font-size: 50px;
+    font-family: Playfair Display SC;
+    color: whitesmoke;
+
+}
+
+.card-body{
+    background-color: rgb(77, 100, 61);
+    min-height: 200px;
+}
+
+.card-text{
+    font-size: 12px;
+    font-family: Playfair Display SC;
+    color: whitesmoke;
+}
+
+.btn {
+
+    font-size: 14px;
+    color: whitesmoke;
+    font-family: Roboto Mono;
+
+}
+
+.link{
+    font-size: 14px;
+    font-family: Roboto Mono;
+    color: whitesmoke;
+
+}
+
+.plant-image{
+    font-size: 14px;
+    font-family: Roboto Mono;
+    color: black;
+}
+
+.fname {
+    font-family: Playfair Display SC;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: whitesmoke;
+      
+  }
+
+.input{
+        font-family: Roboto Mono;
+    font-size: 14px;
+    color: black;
+    weight: bold;
+    
+}

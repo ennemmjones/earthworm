@@ -1,0 +1,18 @@
+Leftover Stuff for Earthworm
+
+Needs
+-Delete plant from garden
+-Edit garden
+-Delete garden
+-Authentification for double username (ask for help?)
+
+Not Need but Easy
+-Edit username
+-Delete username
+-Gardening tips page
+
+Stretch
+-Garden description
+-Performance
+-Tooltip hovering
+-Search filters by sun
